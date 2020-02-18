@@ -1,0 +1,15 @@
+
+*.aux
+thesis.bbl
+thesis.bcf
+thesis.blg
+thesis.idx
+thesis.lof
+thesis.log
+thesis.lot
+thesis.nlo
+thesis.out
+thesis.pdf
+thesis.run.xml
+thesis.synctex.gz
+thesis.toc

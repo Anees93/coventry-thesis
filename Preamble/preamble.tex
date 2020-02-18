@@ -119,7 +119,12 @@
 
 %\usepackage{cleveref} %Referencing without need to explicitly state fig /table
 
-\RequirePackage[backend=biber, sorting=nty, natbib=true]{biblatex}
+% For number referencing style
+%\RequirePackage[backend=biber, sorting=nty, natbib=true]{biblatex}
+
+% For CU Harvard Referencing Style
+\RequirePackage[backend=biber, style=authoryear, sorting=nty, natbib=true]{biblatex}
+\renewcommand*{\nameyeardelim}{\addspace}
 
 %\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nty, natbib=true]{biblatex}
 
